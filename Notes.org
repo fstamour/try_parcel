@@ -5,8 +5,12 @@ Parcel is a bundler for web project (like webpack).
 ** Setup
 
  npm install parcel-bundler --save-dev
- npm install --save vue parcel-plugin-vue
- Manually add "start": "parcel index.html" in package.json's scripts section.
+ npm install --save vue
+ Manually add "start": "parcel src/index.html" in package.json's scripts section.
+ Manually add "build": "parcel build src/index.html" in package.json's scripts section.
 
 ** To try
-***  Generate a component instead of a full page.
+*** Generate a (distribuable) component instead of a full page.
+*** Try pug syntax (formely called jade) See parcel-plugin-pug
+*** Try parcel watch to integrate with other projects
+*** d3?
