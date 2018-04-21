@@ -10,7 +10,11 @@ Parcel is a bundler for web project (like webpack).
  Manually add "build": "parcel build src/index.html" in package.json's scripts section.
 
 ** To try
-*** Generate a (distribuable) component instead of a full page.
-*** Try pug syntax (formely called jade) See parcel-plugin-pug
-*** Try parcel watch to integrate with other projects
-*** d3?
+*** tests
+**** TODO unit
+**** TODO e2e
+*** TODO Lint
+*** TODO Generate a (distribuable) component instead of a full page.
+*** TODO Try pug syntax (formely called jade) See parcel-plugin-pug
+*** TODO Try parcel watch to integrate with other projects
+*** TODO d3?
